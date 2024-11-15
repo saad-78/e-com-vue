@@ -6,5 +6,8 @@ export default defineNuxtConfig({
     },
     modules:[
         '@pinia/nuxt'
-    ]
+    ],
+     router: {
+    base: '/'
+  }
 })
