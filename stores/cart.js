@@ -1,11 +1,4 @@
-import { setActivePinia, createPinia } from 'pinia';
-
-import { defineStore } from 'pinia'
-// Ensure Pinia is active before accessing stores
-const pinia = createPinia();
-setActivePinia(pinia);
-
-
+import { defineStore } from "pinia";
 
 import products from "~~/data";
 
